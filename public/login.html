@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>CineLuxe</title>
+  <link rel="icon" type="image/png" href="./Imagenes/solologo-removebg-preview.png">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>  
+  <header class="encabezado">
+    <div class="TYS">
+      <div class="logo">CineLuxe</div>
+      <div class="eslogan">Donde cada película es una experiencia única.</div>   
+    </div>
+    <div class="navbar">
+      <!-- Ícono de menú (hamburguesa) -->
+      <div class="menu-icon" id="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- Menú de navegación -->
+      <nav id="menu">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./login.html">Ingresar</a></li>
+          <li><a href="./usuario-crear.html">Registrarse</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+    
+    
+  
+
+  <!-- Entradas -->
+  <div class="entradas">
+    <button class="cy" onclick="tuFuncion()">
+      <img class="botonWhats" src="./Imagenes/aplicacion.png" alt="comentario">
+    </button>
+  </div>
+  <!-- Formulario -->
+  <img class="logoo" src="/public/Imagenes/solologo-removebg-preview.png" alt="logo">
+  <div class="tituloentradas">CineLux</div>
+   <div class="tituloentradas">Inicio de Sesión</div>
+   <div class="container">
+    <div class="camera-box">
+      <video id="video" autoplay muted></video>
+    </div>
+    <div class="controls">
+      <button onclick="registrarRostro()">Registrar Rostro</button>
+      <button onclick="verificarRostro()">Verificar Rostro</button>
+    </div>
+    <p id="estado">Cargando modelos...</p>
+  </div>
+  <script src="app.js"></script>
+  <!-- FIN DE FORMULARIO -->
+    
+
+  <!-- as -->
+
+  <footer class="ultimoo">
+    <div class="logoDerecho">©</div>
+    <div class="derechos">CineLux</div>
+    <div class="titulo2">Todos los derechos reservados.</div>
+  </footer>
+  
+
+  
+  
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
+

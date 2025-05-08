@@ -1,0 +1,68 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>CineLuxe</title>
+  <link rel="icon" type="image/png" href="./Imagenes/solologo-removebg-preview.png">
+  <link rel="stylesheet" href="./RF.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+
+</head>
+<body>  
+  <header class="encabezado">
+    <div class="TYS">
+      <div class="logo">CineLuxe</div>
+      <div class="eslogan">Donde cada película es una experiencia única.</div>   
+    </div>
+    <div class="navbar">
+      <!-- Ícono de menú (hamburguesa) -->
+      <div class="menu-icon" id="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- Menú de navegación -->
+      <nav id="menu">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./RF.html">Ingresar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Entradas -->
+  
+  <div class="tituloentradas">Inicio de Sesión por Reconocimiento Facial</div>
+  <div class="container">
+    <div class="camera-box">
+      <video id="video" autoplay muted></video>
+    </div>
+    <div class="controls">
+      <button onclick="registrarRostro()">Registrar Rostro</button>
+      <button onclick="verificarRostro()">Verificar Rostro</button>
+    </div>
+    <p id="estado">Cargando modelos...</p>
+  </div>
+  
+  
+  
+
+
+  <!-- as -->
+
+  <footer class="ultimoo">
+    <div class="derechos">© CineLux</div>
+  </footer>
+  
+
+  
+  
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
+
